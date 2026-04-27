@@ -36,7 +36,7 @@
         <div class="w-[calc(100%-4rem)] md:w-[45%] p-4 rounded-xl border border-gray-800 bg-[#2d2e32]/30 hover:border-[#d871f3]/30 transition-colors text-left">
           <div class="font-bold text-gray-400 text-lg mb-1">2024</div>
           <div class="text-gray-500 font-mono text-sm leading-relaxed">
-            End of high school and passing the matriculation exam. Starting studies at Opole University of Technology.
+            End of high school and passing the finals. Starting studies at Opole University of Technology.
           </div>
         </div>
       </div>
@@ -48,14 +48,14 @@
         <div class="w-[calc(100%-4rem)] md:w-[45%] p-4 rounded-xl border border-gray-800 bg-[#2d2e32]/30 hover:border-[#d871f3]/30 transition-colors text-left">
           <div class="font-bold text-gray-400 text-lg mb-1">2019</div>
           <div class="text-gray-500 font-mono text-sm leading-relaxed">
-            Starting education at Vocational School of Electronics in Opole. First contact with programming and network technologies.
+            Starting education at ZSEl in Opole
           </div>
         </div>
       </div>
 
       <div class="relative flex items-center justify-center pt-4">
         <span class="px-3 py-1 rounded-full border border-gray-800 text-[10px] text-gray-600 font-mono uppercase tracking-widest bg-[#1e1f22]">
-          initial_commit
+          2004 initial_commit
         </span>
       </div>
 
