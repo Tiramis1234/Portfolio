@@ -1,0 +1,67 @@
+<template>
+  <div class="min-h-screen bg-[#1e1f22] text-white py-20 px-6">
+    
+    <div class="text-center mb-16">
+      <h2 class="text-xs font-mono tracking-[0.3em] text-gray-500 uppercase mb-2">Development_Log</h2>
+      <h1 class="text-4xl font-black italic uppercase text-[#d871f3]">Implemented_Projects</h1>
+      <div class="h-1 w-20 bg-[#d871f3] mx-auto mt-4 shadow-[0_0_10px_#d871f3]"></div>
+    </div>
+
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <div class="group relative bg-[#2d2e32]/40 border border-gray-800 rounded-2xl overflow-hidden hover:border-[#d871f3]/50 transition-all duration-500 flex flex-col">
+        <div class="p-8">
+          <div class="flex justify-between items-start mb-4">
+            <h3 class="text-2xl font-bold text-white group-hover:text-[#d871f3] transition-colors">NovelHub</h3>
+            <span class="px-3 py-1 bg-[#d871f3]/10 text-[#d871f3] text-[10px] font-bold rounded-full border border-[#d871f3]/20">WEB / VERCEL</span>
+          </div>
+          <p class="text-gray-400 font-mono text-sm leading-relaxed mb-6">
+            university project - a platform for sharing and discovering original stories and novels.
+          </p>  
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="text-[10px] font-mono text-gray-500 bg-[#1e1f22] px-2 py-1 rounded">ASP.net</span>
+            <span class="text-[10px] font-mono text-gray-500 bg-[#1e1f22] px-2 py-1 rounded">Vue.js</span>
+            <span class="text-[10px] font-mono text-gray-500 bg-[#1e1f22] px-2 py-1 rounded">Vercel</span>
+          </div>
+        </div>
+        <div class="mt-auto p-4 bg-[#1e1f22]/50 border-t border-gray-800/50">
+          <a href="https://novelhub-phi.vercel.app/" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-[#d871f3] text-[#1e1f22] font-black uppercase text-sm rounded-xl hover:bg-[#e18cf7] transition-colors">
+            Site
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="group relative bg-[#2d2e32]/40 border border-gray-800 rounded-2xl overflow-hidden hover:border-[#d871f3]/50 transition-all duration-500 flex flex-col">
+        <div class="p-8">
+          <div class="flex justify-between items-start mb-4">
+            <h3 class="text-2xl font-bold text-white group-hover:text-[#d871f3] transition-colors">Cookie Clicker</h3>
+            <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold rounded-full border border-blue-500/20">WPF / C#</span>
+          </div>
+          <p class="text-gray-400 font-mono text-sm leading-relaxed mb-6">
+            My take on cookie clicker implemented in XAML.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="text-[10px] font-mono text-gray-500 bg-[#1e1f22] px-2 py-1 rounded">C#</span>
+            <span class="text-[10px] font-mono text-gray-500 bg-[#1e1f22] px-2 py-1 rounded">WPF</span>
+            <span class="text-[10px] font-mono text-gray-500 bg-[#1e1f22] px-2 py-1 rounded">XAML</span>
+          </div>
+        </div>
+        <div class="mt-auto p-4 bg-[#1e1f22]/50 border-t border-gray-800/50">
+          <a href="https://github.com/Tiramis1234/CoockieClicker" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 border-2 border-[#d871f3] text-[#d871f3] font-black uppercase text-sm rounded-xl hover:bg-[#d871f3]/10 transition-all">
+            Github
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09a10.116 10.116 0 001.06-2.505m.695-1.283A10.147 10.147 0 0112 12m0 0a10.147 10.147 0 013.44-2.04l.054.09c.427.701.787 1.455 1.06 2.257m-5.241 3.066L10 16m4-2l1 1m-4-1l-1 1m1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4m-5-3h6" /></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mt-16 text-center">
+      <NuxtLink to="/" class="text-gray-600 hover:text-white transition font-mono text-sm underline decoration-gray-800">
+        cd .. / return_to_main
+      </NuxtLink>
+    </div>
+
+  </div>
+</template>
