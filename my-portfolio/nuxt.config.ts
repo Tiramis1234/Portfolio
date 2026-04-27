@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   
   app: {
-    baseURL: '/',
+    baseURL: '/portfolio/',
     buildAssetsDir: 'assets'
   },
 
@@ -10,11 +10,5 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss'],
-  ssr: true,
-  nitro: {
-    preset: 'github-pages',
-    prerender: {
-      routes: ['/about', '/projects', '/cyber']
-    }
-  }
+  ssr: true
 })
