@@ -10,5 +10,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss'],
-  ssr: true
+  ssr: true,
+  nitro: {
+    preset: 'github-pages',
+    prerender: {
+      routes: ['/about', '/projects', '/cyber']
+    }
+  }
 })
