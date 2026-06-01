@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-[#0d0d0d] flex items-center justify-center p-4 font-['JetBrains_Mono',monospace]">
     <div class="w-full max-w-5xl bg-[#0d0d0d] text-[#c9d1d9] rounded-[10px] overflow-hidden border border-[#21262d] shadow-[0_0_40px_rgba(0,255,70,0.05)]">
       <div class="bg-[#161b22] px-4 py-[10px] flex items-center gap-2 border-b border-[#21262d]">
-        <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+        <a href="https://patron.kasperkiewicz.tech/" target="_blank" class="block w-3 h-3 rounded-full bg-[#ff5f56]"></a>
         <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
         <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
         <span class="text-[#8b949e] text-xs mx-auto">marek@kali-linux: ~/portfolio — bash</span>
@@ -32,11 +32,6 @@
             <span class="text-[#00ff46] font-medium min-w-[124px] shrink-0">Imię i Nazwisko</span>
             <span class="text-[#8b949e] mx-1">~</span>
             <span class="text-[#56d364]">Marek Lenarczyk</span>
-          </div>
-          <div class="flex gap-0 text-sm leading-[1.9]">
-            <span class="text-[#00ff46] font-medium min-w-[124px] shrink-0">Rola</span>
-            <span class="text-[#8b949e] mx-1">~</span>
-            <span class="text-[#79c0ff]">Cybersecurity Student</span>
           </div>
           <div class="flex gap-0 text-sm leading-[1.9]">
             <span class="text-[#00ff46] font-medium min-w-[124px] shrink-0">Kierunek</span>
@@ -81,14 +76,9 @@
             <a href="https://tryhackme.com/p/Tiramis" target="_blank" class="text-[#ff6b6b] no-underline border-b border-[rgba(255,107,107,0.3)] hover:text-[#a5d6ff]">tryhackme.com/p/Tiramis</a>
           </div>
           <div class="flex gap-0 text-sm leading-[1.9]">
-            <span class="text-[#00ff46] font-medium min-w-[124px] shrink-0">Certyfikaty</span>
-            <span class="text-[#8b949e] mx-1">~</span>
-            <a href="https://www.credly.com" target="_blank" class="text-[#ffd866] no-underline border-b border-[rgba(255,216,102,0.3)] hover:text-[#a5d6ff]">credly.com/marek-lenarczyk</a>
-          </div>
-          <div class="flex gap-0 text-sm leading-[1.9]">
             <span class="text-[#00ff46] font-medium min-w-[124px] shrink-0">LinkedIn</span>
             <span class="text-[#8b949e] mx-1">~</span>
-            <a href="https://www.linkedin.com/feed/" target="_blank" class="text-[#79c0ff] no-underline border-b border-[rgba(121,192,255,0.3)] hover:text-[#a5d6ff]">linkedin.com/in/marek-lenarczyk</a>
+            <a href="https://www.linkedin.com/in/marek-lenarczyk-38b19938b/" target="_blank" class="text-[#79c0ff] no-underline border-b border-[rgba(121,192,255,0.3)] hover:text-[#a5d6ff]">linkedin.com/in/marek-lenarczyk</a>
           </div>
           <div class="flex gap-0 text-sm leading-[1.9]">
             <span class="text-[#00ff46] font-medium min-w-[124px] shrink-0">Download CV</span>
