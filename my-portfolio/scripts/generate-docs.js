@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-const preserve = ['CNAME'];
+const preserve = ['CNAME', '.nojekyll'];
 
 async function removeContents(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
