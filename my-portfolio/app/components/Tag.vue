@@ -10,9 +10,10 @@ const props = defineProps({
 
 const tagClass = computed(() => {
   const map = {
-    red: 'border-[#3d1f1f] text-[#ff6b6b] bg-[#1a0e0e]',
-    green: 'border-[#1a3a1a] text-[#56d364] bg-[#0e1a0e]',
-    yellow: 'border-[#3a2e0a] text-[#ffd866] bg-[#1a1500]'
+    red: 'border-[#2e2350] text-[#a78bfa] bg-[#130e24]',
+    blue: 'border-[#123a5a] text-[#38bdf8] bg-[#0b1a2a]',
+    green: 'border-[#123a3a] text-[#7dd3fc] bg-[#0b1a1f]',
+    yellow: 'border-[#3a2e0a] text-[#fbbf24] bg-[#1a1500]'
   }
   return map[props.color] || 'border-[#30363d] text-[#79c0ff] bg-[#161b22]'
 })
